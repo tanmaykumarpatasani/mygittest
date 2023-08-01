@@ -1,0 +1,10 @@
+node{
+stage('clone java code') {
+    git 'https://github.com/tanmaykumarpatasani/login.git'
+}
+stage('execute maven target') {
+    sh 'mvn install'
+}
+    
+
+}

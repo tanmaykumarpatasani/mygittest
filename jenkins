@@ -1,5 +1,5 @@
 node{
-stage('clone java code') {
+stage('clone java project') {
     git 'https://github.com/tanmaykumarpatasani/login.git'
 }
 stage('execute maven target') {
